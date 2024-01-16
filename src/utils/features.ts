@@ -46,7 +46,6 @@ export const translateWords = async (params: LangType): Promise<WordType[]> => {
         },
       }
     );
-    // console.log(data[0].translations[0].text);
 
     const receive: FetchedDataType[] = response.data;
 
